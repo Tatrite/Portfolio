@@ -1,0 +1,17 @@
+.contact{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 3%;
+    border: solid;
+    border-color: hsl(210, 22%, 38%);
+    background-color:#4C6278;
+    border-radius: 10px;
+}
+.icons{
+    background-color: #3d4e5f;
+}
+.icons:hover{
+    background-color: #32414f;
+}

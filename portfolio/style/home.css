@@ -1,0 +1,26 @@
+.home {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 3%;
+    border: solid;
+    border-color: hsl(210, 22%, 38%);
+    background-color: #4C6278;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px; /* Augmente l'espacement entre texte et image */
+}
+
+.text {
+    flex: 5;
+    min-width: 50%; /* Limite la largeur du texte */
+}
+
+.image img {
+    min-width: 110%; /* Limite la taille de l'image */
+    height: auto;
+    border-radius: 15px;
+}

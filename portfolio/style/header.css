@@ -1,0 +1,24 @@
+header{
+    padding: 10px;
+    width: 101%;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    border-color: hsl(210, 22%, 38%);
+    background-color:#4C6278;
+    border-radius: 10px;
+}
+
+button{
+    background-color: #3d4e5f;
+}
+button:hover{
+    background-color: #32414f;
+}
+
+
+.current{
+    background-color: #0e1922;
+}
+.current:hover{
+    background-color: #040A0F;
+}
