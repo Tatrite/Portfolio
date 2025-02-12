@@ -8,6 +8,7 @@
     border-color: hsl(210, 22%, 38%);
     background-color:#4C6278;
     border-radius: 10px;
+    box-shadow: 10px 10px 15px #161a20 ;
 }
 .icons{
     background-color: #3d4e5f;

@@ -1,12 +1,15 @@
 /* Styles généraux */
 header {
-    min-width: 110%;
+    /* min-width: 90%; */
     padding: 10px;
     background-color: #4C6278;
     border-radius: 10px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    box-shadow: 10px 10px 15px #161a20 ;
+    
 }
 
 /* Bouton du menu burger */
@@ -39,11 +42,13 @@ nav {
         flex-direction: column;
         background-color: #4C6278;
         position: absolute;
+        margin-left: 10px;
         top: 60px;
         left: 10px;
         width: 200px;
         padding: 10px;
         border-radius: 10px;
+        box-shadow: 10px 10px 15px #161a20 ;
     }
 
     nav.show {

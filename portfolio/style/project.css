@@ -11,6 +11,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+    box-shadow: 10px 10px 15px #161a20 ;
     gap: 20px; /* Augmente l'espacement entre texte et image */
 }
 
