@@ -25,3 +25,22 @@
     margin: auto;
     overflow: hidden;
 }
+
+@media screen and (max-width: 768px) {
+    .Skil{
+        
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 650%;
+    }
+
+    .Skils{
+        padding-top: 5%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 0px;
+        max-width: 100%; /* Empêche le débordement */
+        margin: auto;
+        overflow: hidden;
+    }
+}
