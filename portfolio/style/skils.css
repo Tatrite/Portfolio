@@ -1,0 +1,27 @@
+.Skil{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 3%;
+    border: solid;
+    border-color: hsl(210, 22%, 38%);
+    background-color: #4C6278;
+    border-radius: 10px;
+    flex: 1 1 200px; /* Largeur min de 300px, ajustable */
+    max-width: 200px;
+}
+.logo img{
+    max-width: 10px;
+    max-height: 10px;
+}
+
+.Skils{
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    max-width: 100%; /* Empêche le débordement */
+    margin: auto;
+    overflow: hidden;
+}

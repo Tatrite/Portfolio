@@ -5,19 +5,46 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
     <link rel="stylesheet" href="../style/header.css">
     <link rel="stylesheet" href="../style/footer.css">
+    <link rel="stylesheet" href="../style/experiences.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Experiences</title>
 </head>
 <body>
     <header>
+        <button id="menu-toggle">☰</button> <!-- Bouton menu burger -->
+        <nav id="menu">
         <button type="button" onclick="window.location.href='../../index.html';">Home</button>
-        <button type="button" onclick="window.location.href='about.html';">A-Propo</button>
+        <button type="button" onclick="window.location.href='about.html';">Présentation</button>
         <button type="button" class="current" onclick="window.location.href='#';">Experiences</button>
-        <button type="button" onclick="window.location.href='project.html';">Project</button>
-        <button type="button" onclick="window.location.href='Skils.html';" >Competence</button>
+        <button type="button" onclick="window.location.href='project.html';">Projets</button>
+        <button type="button" onclick="window.location.href='Skils.html';" >Competences</button>
         <button type="button" onclick="window.location.href='contact.html';">Contact</button>
+        </nav>
     </header>
-
+    <div class="experiences">
+        <H1>Mes Experiences Profesionel</H1>
+        <div class="experience">
+            <div class="text">
+                <h2>DuoDay 2024</h2>
+                <h3>21 NOV. 2024</h3>
+                <p>Journée de stage de découverte en entreprise à Continental Toulouse </p>
+            </div>
+        </div>
+        <div class="experience">
+            <div class="text">
+                <h2>Stage d’observation en entreprise</h2>
+                <h3>7 -21 févr. 2020</h3>
+                <p>Etude des cellules à l'INSERM au Kremlin Bicêtre</p>
+            </div>
+        </div>
+        <div class="experience">
+            <div class="text">
+                <h2>Bénévolat</h2>
+                <h3>fevr. et juin 2024</h3>
+                <p>Ramassage de déchets  avec la mairie de Gagnac-sur-Garonne</p>
+            </div>
+        </div>
+    </div>
     <footer>
         <div> 
             <a href="https://www.linkedin.com/in/florian-fuchs-629275306/" target="_blank">
@@ -32,4 +59,6 @@
             @Florian-FUCHS all right reserv
         </div>
 </body>
+<script src="../script/header.js">
+</script>
 </html>

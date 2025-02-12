@@ -5,19 +5,105 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
     <link rel="stylesheet" href="../style/header.css">
     <link rel="stylesheet" href="../style/footer.css">
+    <link rel="stylesheet" href="../style/skils.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skils</title>
 </head>
 <body>
     <header>
+        <button id="menu-toggle">☰</button> <!-- Bouton menu burger -->
+        <nav id="menu">
         <button type="button" onclick="window.location.href='../../index.html';">Home</button>
-        <button type="button" onclick="window.location.href='about.html';">A-Propo</button>
+        <button type="button" onclick="window.location.href='about.html';">Présentation</button>
         <button type="button" onclick="window.location.href='experiences.html';">Experiences</button>
-        <button type="button" onclick="window.location.href='project.html';">Project</button>
-        <button type="button" class="current" onclick="window.location.href='#';" >Competence</button>
+        <button type="button" onclick="window.location.href='project.html';">Projets</button>
+        <button type="button" class="current" onclick="window.location.href='#';" >Competences</button>
         <button type="button" onclick="window.location.href='contact.html';">Contact</button>
+        </nav>
     </header>
 
+        <h1>Mes Competences</h1>
+    <div class="Skils">
+        <div class="Skil">
+            <div class="Logo">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python logo"  />
+            </div>
+            <div class="text">
+                <H2>Python</H2>
+                <p>Niveau avançé</p>
+            </div>
+        </div>
+        <div class="Skil">
+            <div class="Logo">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="java logo"  />
+            </div>
+            <div class="text">
+                <h2>Java</h2>
+                <p>niveau intermédiaire</p>
+            </div>
+        </div>
+        <div class="Skil">
+            <div class="Logo">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript logo"  />
+            </div>
+            <div class="text">
+                <h2>JavaScript</h2>
+                <p>niveau intermédiaire</p>
+            </div>
+        </div>
+
+
+        <div class="Skil">
+            <div class="Logo">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="cplusplus logo"  />
+            </div>
+            <div class="text">
+                <h2>C++</h2>
+                <p>niveau débutant</p>
+            </div>
+        </div>
+        <div class="Skil">
+            <div class="Logo">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="php logo"  />
+            </div>
+            <div class="text">
+                <h2>PHP</h2>
+                <p>niveau débutant</p>
+            </div>
+        </div>
+        
+        <div class="Skil">
+            <div class="Logo">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="angularjs logo"  />
+            </div>
+            <div class="text">
+                <h2>Angular</h2>
+                <p>niveau débutant</p>
+            </div>
+        </div>
+        
+        <div class="Skil">
+            <div class="Logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png" alt="git logo">
+            </div>
+            <div class="text">
+                <h2>Git</h2>
+                <p>niveau intermédiaire</p>
+            </div>
+        </div>
+        <div class="Skil">
+            <div class="Logo">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="bash logo"  />
+            </div>
+            <div class="text">
+                <h2>Bash</h2>
+                <p>niveau intermédiaire</p>
+            </div>
+        </div>
+
+
+        
+    </div>
     <footer>
         <div> 
             <a href="https://www.linkedin.com/in/florian-fuchs-629275306/" target="_blank">
@@ -32,4 +118,6 @@
             @Florian-FUCHS all right reserv
         </div>
 </body>
+<script src="../script/header.js">
+</script>
 </html>

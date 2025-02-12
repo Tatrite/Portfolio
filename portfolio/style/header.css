@@ -1,12 +1,56 @@
-header{
+/* Styles généraux */
+header {
+    min-width: 110%;
     padding: 10px;
-    width: 101%;
-    padding-right: 0px;
-    padding-bottom: 5px;
-    border-color: hsl(210, 22%, 38%);
-    background-color:#4C6278;
+    background-color: #4C6278;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+/* Bouton du menu burger */
+#menu-toggle {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: none; /* Masqué par défaut */
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+/* Cacher le menu sur mobile */
+@media screen and (max-width: 768px) {
+    #menu-toggle {
+        display: block; /* Affiche le bouton burger */
+    }
+    header{
+        min-width: 10%;
+    }
+
+    nav {
+        display: none; /* Cache le menu */
+        flex-direction: column;
+        background-color: #4C6278;
+        position: absolute;
+        top: 60px;
+        left: 10px;
+        width: 200px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    nav.show {
+        display: flex; /* Affiche le menu lorsqu'il est activé */
+    }
+}
+
 
 button{
     background-color: #3d4e5f;

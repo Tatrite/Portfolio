@@ -6,16 +6,23 @@
     <link rel="stylesheet" href="../style/header.css">
     <link rel="stylesheet" href="../style/footer.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
     <title>About</title>
 </head>
 <body>
     <header>
-        <button type="button" onclick="window.location.href='../../index.html';">Home</button>
-        <button type="button" class="current" onclick="window.location.href='#';">A-Propo</button>
-        <button type="button" onclick="window.location.href='experiences.html';">Experiences</button>
-        <button type="button" onclick="window.location.href='project.html';">Project</button>
-        <button type="button" onclick="window.location.href='Skils.html';" >Competence</button>
-        <button type="button" onclick="window.location.href='contact.html';">Contact</button>
+        <header>
+            <button id="menu-toggle">☰</button> <!-- Bouton menu burger -->
+            <nav id="menu">
+                <button type="button" onclick="window.location.href='../../index.html';">Home</button>
+                <button type="button" class="current" onclick="window.location.href='about.html';">Présentation</button>
+                <button type="button" onclick="window.location.href='experiences.html';">Experiences</button>
+                <button type="button" onclick="window.location.href='project.html';">Projets</button>
+                <button type="button" onclick="window.location.href='Skils.html';">Competences</button>
+                <button type="button" onclick="window.location.href='contact.html';">Contact</button>
+            </nav>
+        </header>
+        
     </header>
 
     <footer>
@@ -32,4 +39,6 @@
             @Florian-FUCHS all right reserv
         </div>
 </body>
+<script src="../script/header.js">
+</script> 
 </html>

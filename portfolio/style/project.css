@@ -1,8 +1,8 @@
-.home {
+.project{
     margin-top: 5%;
     margin-bottom: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     padding: 3%;
     border: solid;
     border-color: hsl(210, 22%, 38%);
@@ -24,8 +24,10 @@
     height: auto;
     border-radius: 15px;
 }
+
+
 @media screen and (max-width: 768px) {
-    .home {
+    .project {
         flex-direction: column; /* Change l'affichage en colonne */
         align-items: center; /* Centre les éléments */
         text-align: center; /* Centre le texte */
