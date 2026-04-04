@@ -1,145 +1,186 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/x-icon" href="../public/favicon.ico">
-    <meta name="description" content="Découvrez mon portfolio de développeur web avec des projets en Python, JavaScript et Angular. Contactez-moi pour des collaborations !">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
-    <link rel="stylesheet" href="../style/header.css">
-    <link rel="stylesheet" href="../style/footer.css">
-    <link rel="stylesheet" href="../style/project.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project</title>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="../public/favicon.ico">
+  <meta name="description" content="Florian Fuchs - Projects">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Florian Fuchs</title>
+  <link rel="stylesheet" href="../style/global.css">
+  <link rel="stylesheet" href="../style/header.css">
+  <link rel="stylesheet" href="../style/footer.css">
+  <link rel="stylesheet" href="../style/project.css">
 </head>
 <body>
-    <header>
-        <button id="menu-toggle">☰</button> <!-- Bouton menu burger -->
-        <nav id="menu">
-        <button type="button" onclick="window.location.href='../../index.html';">Home</button>
-        <button type="button" onclick="window.location.href='experiences.html';">Expériences</button>
-        <button type="button" class="current" onclick="window.location.href='#';">Projets</button>
-        <button type="button" onclick="window.location.href='Skils.html';" >Compétences</button>
-        <button type="button" onclick="window.location.href='contact.html';">Contact</button>
-        </nav>
-    </header>
 
-<div class="projects">
-    <H1>Mes Projets</H1>
-    <div class="project">
-        <div class="text">
-            <h2>Blog_porto</h2>
-            <h5>avr. 2024 - mai 2024</h5>
-            <p>
-                Dans ce projet, j'ai créé avec des camarades un blog en HTML, CSS, JavaScript. Ce projet avait pour but de présenter ce que nous avions fait durant notre voyage scolaire à Porto. Cette expérience m'a permis de développer mes compétences en HTML, CSS, JavaScript.
-            </p>
-        
-            
+  <header>
+    <button id="menu-toggle">☰</button>
+    <nav id="menu">
+      <button type="button" onclick="window.location.href='../../index.html'">Home</button>
+      <button type="button" onclick="window.location.href='experiences.html'">Experiences</button>
+      <button type="button" class="current" onclick="window.location.href='#'">Projects</button>
+      <button type="button" onclick="window.location.href='Skils.html'">Skills</button>
+      <button type="button" onclick="window.location.href='contact.html'">Contact</button>
+    </nav>
+  </header>
+
+  <main>
+    <div class="page-header">
+      <div class="page-label">// things I've built</div>
+      <h1>My Projects</h1>
+    </div>
+
+    <div class="projects-section">
+
+      <div class="project-card">
+        <div class="project-image">
+          <img src="../img/Blog_Porto.jpg" alt="Blog Porto" />
+          <div class="overlay"></div>
+        </div>
+        <div class="project-body">
+          <div class="project-date">Apr 2024 — May 2024</div>
+          <h2>Blog Porto</h2>
+          <p>A blog built with classmates to document our school trip to Porto. Helped me sharpen my HTML, CSS and JavaScript skills in a real collaborative project.</p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <div class="project-links">
             <a href="https://github.com/Lapfips/lapfips.github.io" target="_blank">
-                <img src="../img/github.png" width="18" alt="github logo"  />
+              <img src="../img/icons/github.png" alt="GitHub" /> GitHub
             </a>
-            <div>
-                <a href="https://lapfips.github.io/index.html" target="_blank">Liens du Blog</a>
-            </div>
+            <a href="https://lapfips.github.io/index.html" target="_blank">↗ Live</a>
+          </div>
         </div>
-        <div class="image">
-            <img src="../img/Blog_Porto.jpg" alt="Blog_Porto">
+      </div>
+
+      <div class="project-card">
+        <div class="project-image">
+          <img src="../img/Convert_Base.png" alt="Convert Base" />
+          <div class="overlay"></div>
         </div>
-    </div>
-    <div class="project">
-        <div class="text">
-            <h2>Convert_Base</h2>
-            <h5>févr. 2022 - avr. 2022</h5>
-            <p>
-                Dans ce projet, j'ai créé un convertisseur de base (binaire, décimal, hexadécimal et octal) avec un camarade de classe. J'ai fait ce projet au lycée en NSI. Ce Projet m'a permis de me familiariser avec le travail en équipe et de développer mes compétences en Python.
-            </p>
+        <div class="project-body">
+          <div class="project-date">Feb 2022 — Apr 2022</div>
+          <h2>Convert Base</h2>
+          <p>A base converter (binary, decimal, hexadecimal, octal) built in Python with a classmate during high school NSI class. My first real experience with teamwork and Python.</p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">NSI</span>
+          </div>
+          <div class="project-links">
             <a href="https://github.com/Tatrite/Convrert_Base" target="_blank">
-                <img src="../img/github.png" width="18" alt="github logo"  />
+              <img src="../img/icons/github.png" alt="GitHub" /> GitHub
             </a>
+          </div>
         </div>
-        <div class="image">
-            <img src="../img/Convert_Base.png" alt="Convert_Base">
+      </div>
+
+      <div class="project-card">
+        <div class="project-image">
+          <img src="../img/GenstionEvenemnt.png" alt="Gestion Evenement" />
+          <div class="overlay"></div>
         </div>
-    </div>
-    <div class="project">
-        <div class="text">
-            <H2>Gestion_Evenement</H2>
-            <p>
-                Dans ce projet j'ai créé une application javascript pour gérer des évènements avec un formulaire pour les ajouter ou supprimer d'une liste ou les mettre à jour.
-            </p>
+        <div class="project-body">
+          <div class="project-date">JavaScript Project</div>
+          <h2>Event Manager</h2>
+          <p>A JavaScript app to manage events — add, remove and update entries from a list via a form interface.</p>
+          <div class="project-tags">
+            <span class="tag">JavaScript</span>
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+          </div>
+          <div class="project-links">
             <a href="https://github.com/Tatrite/Gestion_Evenement" target="_blank">
-                <img src="../img/github.png" width="18" alt="github logo"  />
+              <img src="../img/icons/github.png" alt="GitHub" /> GitHub
             </a>
-            <div>
-            <a href="http://tatrite.github.io/Gestion_Evenement/" target="_blank">Liens du site</a>
-            </div>
+            <a href="http://tatrite.github.io/Gestion_Evenement/" target="_blank">↗ Live</a>
+          </div>
         </div>
-        <div class="image">
-            <img src="../img/GenstionEvenemnt.png" alt="Gestion_Evenement">
+      </div>
+
+      <div class="project-card">
+        <div class="project-image">
+          <img src="../img/GestionVoitures.png" alt="Gestion Voiture" />
+          <div class="overlay"></div>
         </div>
-    </div>
-    <div class="project">
-        <div class="text">
-            <h2>Voiture_Angular</h2>
-            <p>
-                Dans ce projet j'ai créé une application Angular avec bootstrap pour gérer une liste de voitures.
-            </p>
+        <div class="project-body">
+          <div class="project-date">Angular Project</div>
+          <h2>Car Manager</h2>
+          <p>An Angular application with Bootstrap to manage a car list. My first hands-on experience with a frontend framework.</p>
+          <div class="project-tags">
+            <span class="tag">Angular</span>
+            <span class="tag">Bootstrap</span>
+            <span class="tag">TypeScript</span>
+          </div>
+          <div class="project-links">
             <a href="https://github.com/Tatrite/Gestion_Voiture" target="_blank">
-                <img src="../img/github.png" width="18" alt="github logo"  />
+              <img src="../img/icons/github.png" alt="GitHub" /> GitHub
             </a>
+          </div>
         </div>
-        <div class="image">
-            <img src="../img/GestionVoitures.png" alt="Gestion_Voiture">
+      </div>
+
+      <div class="project-card">
+        <div class="project-image">
+          <img src="../img/jeux_phyton.jpg" alt="Python Game" />
+          <div class="overlay"></div>
         </div>
-    </div>
-    <div class="project">     
-        <div class="text">
-            <h2>Python_Jeux</h2>
-            <p>  
-                Création d'un jeu de tir en python avec la librairie TKinter. J'ai fait ce projet au lycée en cours de NSI. Ce projet m'avait permis de mieux comprendre et appréhender le développement Object (POO).
-            </p>
+        <div class="project-body">
+          <div class="project-date">High School — NSI</div>
+          <h2>Python Shooter Game</h2>
+          <p>A shooting game in Python using Tkinter, built during high school NSI class. This project introduced me to Object-Oriented Programming (OOP).</p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Tkinter</span>
+            <span class="tag">OOP</span>
+          </div>
+          <div class="project-links">
             <a href="https://github.com/Tatrite/Pyton_Tkinter_Game-" target="_blank">
-                <img src="../img/github.png" width="18" alt="github logo"  /> 
+              <img src="../img/icons/github.png" alt="GitHub" /> GitHub
             </a>
+          </div>
         </div>
-        <div class="image">
-            <img src="../img/jeux_phyton.jpg" alt="Python_Jeux">
+      </div>
+
+      <div class="project-card">
+        <div class="project-image">
+          <img src="../img/Todoliste.png" alt="Todo List" />
+          <div class="overlay"></div>
         </div>
-    </div>
-    <div class="project">
-        <div class="text">
-            <h2>Todo_liste</h2>
-            <p>
-                Dans ce projet j'ai créé une application javascript pour gérer une Todo liste.
-            </p>
+        <div class="project-body">
+          <div class="project-date">JavaScript Project</div>
+          <h2>Todo List</h2>
+          <p>A simple but clean JavaScript Todo List application to manage daily tasks.</p>
+          <div class="project-tags">
+            <span class="tag">JavaScript</span>
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+          </div>
+          <div class="project-links">
             <a href="https://github.com/Tatrite/Todolist" target="_blank">
-                <img src="../img/github.png" width="18" alt="github logo"  />
+              <img src="../img/icons/github.png" alt="GitHub" /> GitHub
             </a>
-            <div>
-                <a href="https://tatrite.github.io/Todolist/" target="_blank">Liens du site</a>
-            </div>
+            <a href="https://tatrite.github.io/Todolist/" target="_blank">↗ Live</a>
+          </div>
         </div>
-        <div class="image">
-            <img src="../img/Todoliste.png" alt="Todo_liste">
-        </div>
+      </div>
+
     </div>
-</div>
+  </main>
 
+  <footer>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/florian-fuchs-629275306/" target="_blank" aria-label="LinkedIn">
+        <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" alt="LinkedIn" />
+      </a>
+      <a href="https://github.com/Tatrite" target="_blank" aria-label="GitHub">
+        <img src="../img/icons/github.png" alt="GitHub" />
+      </a>
+    </div>
+    <div class="footer-copy">&copy; 2025 <span>Florian Fuchs</span> — All rights reserved</div>
+  </footer>
 
-    <footer>
-        <div> 
-            <a href="https://www.linkedin.com/in/florian-fuchs-629275306/" target="_blank">
-                <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="18" alt="linkedin logo"  />
-              </a>
-            <a href="https://github.com/Tatrite" target="_blank">
-                <img src="../img/github.png" width="18" alt="github logo"  />
-            </a>
-        </div>
-        
-        <div style="text-align: center;">
-            @Florian-FUCHS all rights reserved
-        </div>
-    </footer>
+  <script src="../script/header.js"></script>
 </body>
-<script src="../script/header.js">
-</script>
 </html>

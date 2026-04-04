@@ -1,67 +1,77 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/x-icon" href="portfolio/public/favicon.ico">
-    <meta name="description" content="Découvrez mon portfolio de développeur web avec des projets en Python, JavaScript et Angular. Contactez-moi pour des collaborations !">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
-    <link rel="stylesheet" href="portfolio/style/header.css">
-    <link rel="stylesheet" href="portfolio/style/footer.css"> 
-    <link rel="stylesheet" href="portfolio/style/home.css">  
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Florian FUCHS | Portfolio</title>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="portfolio/public/favicon.ico">
+  <meta name="description" content="Florian Fuchs - Developer Student at IPI Toulouse. Python, JavaScript, Django, Angular and more.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Florian Fuchs | Portfolio</title>
+  <link rel="stylesheet" href="portfolio/style/global.css">
+  <link rel="stylesheet" href="portfolio/style/header.css">
+  <link rel="stylesheet" href="portfolio/style/footer.css">
+  <link rel="stylesheet" href="portfolio/style/home.css">
 </head>
 <body>
-    <header>
-        <button id="menu-toggle">☰</button> <!-- Bouton menu burger -->
-        <nav id="menu">
-        <button type="button" class="current" onclick="window.location.href='#';">Home</button>
-        <button type="button" onclick="window.location.href='portfolio/pages/experiences.html';">Expériences</button>
-        <button type="button" onclick="window.location.href='portfolio/pages/project.html';">Projets</button>
-        <button type="button" onclick="window.location.href='portfolio/pages/Skils.html';" >Compétences</button>
-        <button type="button" onclick="window.location.href='portfolio/pages/contact.html';">Contact</button>
-        </nav>
-    </header>
 
+  <header>
+    <button id="menu-toggle">☰</button>
+    <nav id="menu">
+      <button type="button" class="current" onclick="window.location.href='#'">Home</button>
+      <button type="button" onclick="window.location.href='portfolio/pages/experiences.html'">Experiences</button>
+      <button type="button" onclick="window.location.href='portfolio/pages/project.html'">Projects</button>
+      <button type="button" onclick="window.location.href='portfolio/pages/Skils.html'">Skills</button>
+      <button type="button" onclick="window.location.href='portfolio/pages/contact.html'">Contact</button>
+    </nav>
+  </header>
+
+  <main>
     <div class="home">
-        <div class="text">
-            <h1>Hey 👋 </h1>
-                
-                <h2>
-                <div class="typing-container">
-                    <span class="typing" data-texts='["Hello World!", "print(`Hello Wold!`);", "consol.log(`Hello Wold!`);"]'></span>|
-                    </div>
-            </h2>
-            
-            <h4> 
-                Bienvenue sur mon Portfolio!!   
-                
-            </h4>
-            <p> 
-                Je m'appelle Florian FUCHS et je suis un étudiant passionné en développement informatique. Je suis actuellement en deuxième année de Bachelor à IPI Toulouse.
-            </p>
-
+      <div class="text">
+        <div class="greeting">Available for opportunities</div>
+        <h1>Florian<br>Fuchs</h1>
+        <div class="typing-container">
+          <span class="typing" data-texts='["Hello World!", "print(\"Hello World!\")", "console.log(\"Hello World!\")"]'></span>
+          <span class="cursor"></span>
         </div>
-        <div class="image">
-            <img src="portfolio/img/IMG_4591.jpg" alt="Ma photo" width="50%" style="border-radius: 15px ;">
+        <p>
+          Hey! I'm a French developer currently in my 3rd year at IPI Toulouse.
+          I enjoy building things, breaking them, and figuring out why — that's basically how I learn.
+          Currently doing an internship at <strong style="color: var(--accent3);">Wocsa</strong>, working on a Django project.
+        </p>
+        <div class="badges">
+          <span class="tag">🎓 IPI Toulouse</span>
+          <span class="tag">🔭 Django · Wocsa</span>
+          <span class="tag">🌱 Learning C & Rust</span>
+          <span class="tag">🇫🇷 Toulouse</span>
         </div>
+        <div class="cta-buttons">
+          <a class="btn" href="portfolio/pages/project.html">View my projects</a>
+          <a class="btn btn-outline" href="portfolio/pages/contact.html">Contact me</a>
+        </div>
+      </div>
+      <div class="image">
+        <div class="avatar-wrapper">
+          <img src="portfolio/img/IMG_4591.jpg" alt="Florian Fuchs" />
+        </div>
+      </div>
     </div>
+  </main>
 
-    <footer>
-        <div> 
-            <a href="https://www.linkedin.com/in/florian-fuchs-629275306/" target="_blank">
-                <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="18" alt="linkedin logo"  />
-            </a>
-            <a href="https://github.com/Tatrite" target="_blank">
-                <img src="portfolio/img/github.png" width="18" alt="github logo"  />
-            </a>
-        </div>
-        
-        <div style="text-align: center;">
-            @Florian-FUCHS all rights reserved
-        </div>
-    </footer>
+  <footer>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/florian-fuchs-629275306/" target="_blank" aria-label="LinkedIn">
+        <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" alt="LinkedIn" />
+      </a>
+      <a href="https://github.com/Tatrite" target="_blank" aria-label="GitHub">
+        <img src="portfolio/img/icons/github.png" alt="GitHub" />
+      </a>
+    </div>
+    <div class="footer-copy">
+      &copy; 2025 <span>Florian Fuchs</span> — All rights reserved
+    </div>
+  </footer>
+
+  <script src="portfolio/script/home.js"></script>
+  <script src="portfolio/script/header.js"></script>
 </body>
-<script src="portfolio/script/home.js"></script>
-<script src="portfolio/script/header.js"></script> 
 </html>

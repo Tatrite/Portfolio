@@ -1,73 +1,131 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/x-icon" href="../public/favicon.ico">
-    <meta name="description" content="Découvrez mon portfolio de développeur web avec des projets en Python, JavaScript et Angular. Contactez-moi pour des collaborations !">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
-    <link rel="stylesheet" href="../style/header.css">
-    <link rel="stylesheet" href="../style/footer.css">
-    <link rel="stylesheet" href="../style/experiences.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Experiences</title>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="../public/favicon.ico">
+  <meta name="description" content="Florian Fuchs - Professional experiences">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experiences | Florian Fuchs</title>
+  <link rel="stylesheet" href="../style/global.css">
+  <link rel="stylesheet" href="../style/header.css">
+  <link rel="stylesheet" href="../style/footer.css">
+  <link rel="stylesheet" href="../style/experiences.css">
 </head>
 <body>
-    <header>
-        <button id="menu-toggle">☰</button> <!-- Bouton menu burger -->
-        <nav id="menu">
-        <button type="button" onclick="window.location.href='../../index.html';">Home</button>
-        <button type="button" class="current" onclick="window.location.href='#';">Expériences</button>
-        <button type="button" onclick="window.location.href='project.html';">Projets</button>
-        <button type="button" onclick="window.location.href='Skils.html';" >Compétences</button>
-        <button type="button" onclick="window.location.href='contact.html';">Contact</button>
-        </nav>
-    </header>
-    <div class="experiences">
-        <H1>Mes Experiences Profesionel</H1>
-        <div class="experience">
-            <div class="text">
-                <h2>Stage chez IDEAWEB</h2>
-                <h3>17 févr - 17 mars 2025</h3>
-                <p>Deux mois de stage au sein de l’auto-entreprise IDEAWEB, dans le cadre de ma deuxième année de Bachelor à l’IPI. <br> Durant ces deux mois, j’ai eu l’occasion de créer une application mobile de prise de rendez-vous avec WordPress</p>
-            </div>
-        </div>
-        <div class="experience">
-            <div class="text">
-                <h2>DuoDay 2024</h2>
-                <h3>21 NOV. 2024</h3>
-                <p>Journée de stage de découverte en entreprise à Continental Toulouse </p>
-            </div>
-        </div>
-        <div class="experience">
-            <div class="text">
-                <h2>Stage d’observation en entreprise</h2>
-                <h3>7 -21 févr. 2020</h3>
-                <p>Etude des cellules à l'INSERM au Kremlin Bicêtre</p>
-            </div>
-        </div>
-        <div class="experience">
-            <div class="text">
-                <h2>Bénévolat</h2>
-                <h3>fevr. et juin 2024</h3>
-                <p>Ramassage de déchets  avec la mairie de Gagnac-sur-Garonne</p>
-            </div>
-        </div>
+
+  <header>
+    <button id="menu-toggle">☰</button>
+    <nav id="menu">
+      <button type="button" onclick="window.location.href='../../index.html'">Home</button>
+      <button type="button" class="current" onclick="window.location.href='#'">Experiences</button>
+      <button type="button" onclick="window.location.href='project.html'">Projects</button>
+      <button type="button" onclick="window.location.href='Skils.html'">Skills</button>
+      <button type="button" onclick="window.location.href='contact.html'">Contact</button>
+    </nav>
+  </header>
+
+  <main>
+    <div class="page-header">
+      <div class="page-label">// my journey</div>
+      <h1>Experiences</h1>
     </div>
-    <footer>
-        <div> 
-            <a href="https://www.linkedin.com/in/florian-fuchs-629275306/" target="_blank">
-                <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="18" alt="linkedin logo"  />
-            </a>
-            <a href="https://github.com/Tatrite" target="_blank">
-                <img src="../img/github.png" width="18" alt="github logo"  />
-            </a>
+
+    <div class="experiences-section">
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="experience-card">
+            <div class="exp-date">2025 — Present</div>
+            <h2>Internship at Wocsa</h2>
+            <div class="exp-company">Wocsa · Toulouse</div>
+            <p>
+              Currently doing my 3rd year Bachelor internship at Wocsa, where I'm working on a Django web application project. This experience is allowing me to deepen my backend development skills in a professional environment.
+            </p>
+            <div class="exp-tags">
+              <span class="tag">Django</span>
+              <span class="tag">Python</span>
+              <span class="tag">Backend</span>
+            </div>
+          </div>
         </div>
-        
-        <div style="text-align: center;">
-            @Florian-FUCHS all rights reserved
+
+        <div class="timeline-item">
+          <div class="experience-card">
+            <div class="exp-date">Feb 17 — Mar 17, 2025</div>
+            <h2>Internship at IDEAWEB</h2>
+            <div class="exp-company">IDEAWEB · Freelance</div>
+            <p>
+              Two-month internship as part of my 2nd year Bachelor at IPI Toulouse. I built a mobile appointment booking application using WordPress, gaining hands-on experience with client projects and delivery in a small business environment.
+            </p>
+            <div class="exp-tags">
+              <span class="tag">WordPress</span>
+              <span class="tag">Mobile</span>
+              <span class="tag">Web</span>
+            </div>
+          </div>
         </div>
-    </footer>
+
+        <div class="timeline-item">
+          <div class="experience-card">
+            <div class="exp-date">Nov 21, 2024</div>
+            <h2>DuoDay 2024</h2>
+            <div class="exp-company">Continental · Toulouse</div>
+            <p>
+              A one-day shadowing experience at Continental Toulouse, discovering how a large industrial tech company operates at scale.
+            </p>
+            <div class="exp-tags">
+              <span class="tag">Discovery</span>
+              <span class="tag">Industrial Tech</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="experience-card">
+            <div class="exp-date">Feb — Mar, 2024</div>
+            <h2>Volunteer — Community Service</h2>
+            <div class="exp-company">Mairie de Gagnac-sur-Garonne</div>
+            <p>
+              Participated in waste collection initiatives organized by the local council of Gagnac-sur-Garonne.
+            </p>
+            <div class="exp-tags">
+              <span class="tag">Volunteer</span>
+              <span class="tag">Community</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="experience-card">
+            <div class="exp-date">Feb 7 — 21, 2020</div>
+            <h2>Observation Internship</h2>
+            <div class="exp-company">INSERM · Le Kremlin-Bicêtre</div>
+            <p>
+              Observation internship at INSERM, studying cells in a biomedical research environment. An early experience that sparked my interest in technology and science.
+            </p>
+            <div class="exp-tags">
+              <span class="tag">Research</span>
+              <span class="tag">Biology</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/florian-fuchs-629275306/" target="_blank" aria-label="LinkedIn">
+        <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" alt="LinkedIn" />
+      </a>
+      <a href="https://github.com/Tatrite" target="_blank" aria-label="GitHub">
+        <img src="../img/icons/github.png" alt="GitHub" />
+      </a>
+    </div>
+    <div class="footer-copy">&copy; 2025 <span>Florian Fuchs</span> — All rights reserved</div>
+  </footer>
+
+  <script src="../script/header.js"></script>
 </body>
-<script src="../script/header.js">
-</script>
 </html>
