@@ -13,6 +13,10 @@ Personal portfolio website built with HTML, CSS and vanilla JavaScript. Availabl
 - Typewriter effect on the home page
 - Sections: Home, Experiences, Projects, Skills, Contact
 - CV download button
+- upcommming :
+  - language:
+    - french
+    - english
 
 ---
 
